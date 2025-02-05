@@ -1,0 +1,41 @@
+/*================================================
+Base
+================================================*/
+
+html{
+    box-sizing: border-box;
+}
+*,*::before, *::after{
+    box-sizing: inherit;
+}
+
+/*=============================================
+Éléments
+==============================================*/
+
+/*------------ Base----------*/
+.wrapper{
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", serif;
+    font-size: 16px;
+}
+
+
+/*===========================================
+COMPONENTS
+=============================================*/
+
+/*-----------Header---------*/
+h1{
+    font-family: "Dosis", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 43.34px;
+}
