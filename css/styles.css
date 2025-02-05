@@ -25,6 +25,12 @@ body{
     font-family: "Roboto", serif;
     font-size: 16px;
 }
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
 
 
 /*===========================================
@@ -39,3 +45,31 @@ h1{
     font-style: normal;
     font-size: 43.34px;
 }
+.logo{
+    display: flex;
+    align-items: center;
+}
+header .wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header ul{
+    display: flex;
+    gap: 30px;
+}
+header a{
+    font-family: "Dosis", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: #000000;
+
+}
+header a:hover{
+    background-color: #0E5EA1;
+    color: #FFFFFF;
+    border-radius: 5px;
+    padding: 10px;
+}
+
