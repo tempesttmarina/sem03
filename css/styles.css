@@ -15,8 +15,9 @@ html{
 
 /*------------ Base----------*/
 .wrapper{
-    max-width: 1080px;
-    margin: 0 auto;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 body{
@@ -73,3 +74,84 @@ header a:hover{
     padding: 10px;
 }
 
+/*-------------Section HERO----------*/
+.hero{
+    background-image: url(../images/montagnes-banniere.jpg);
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: contain;  
+}
+.hero .wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.texte-banniere{
+    padding: 30px 20px;
+    background-color: #00000070;
+}
+h2{
+    font-family: "Dosis", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 36px;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 0;
+}
+.hero p{
+    text-align: center;
+    color: #2FCB48;
+    font-family: "Roboto", serif;
+    font-size: 20px;
+    margin: 0;
+}
+
+/*---------------Section contenu-----------*/
+.contenu .articles {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.contenu{
+    background-color: #E3E4E4;
+    padding-top: 42px;
+    padding-bottom: 42px;
+}
+article{
+    padding: 10px;
+    max-width: 320px;
+    background-color: #FFFFFF;
+}
+.pied-page{
+    margin-top: 40px;
+}
+h3{
+    font-family: "Dosis", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24px;
+}
+article p{
+    font-family: "Roboto", serif;
+    font-size: 16px;
+    line-height: 160%;
+}
+article a{
+    font-family: "Dosis", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 14px;
+    color: #000000;
+    background-color: #b7b7b7;
+    padding: 15px 45px;
+    border-radius: 5px;
+}
+article a:hover{
+    background-color: #0E5EA1;
+    color: #FFFFFF ;
+}
