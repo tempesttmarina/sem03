@@ -32,6 +32,9 @@ a{
 ul{
     list-style-type: none;
 }
+p{
+    margin: 0;
+}
 
 
 /*===========================================
@@ -127,13 +130,20 @@ article{
     border-right: 10px  #FFFFFF solid;
     border-bottom: 10px  #0E5EA1 solid;
 
-    padding-bottom: 20px;
-
-    height: 715px;
-
     max-width: 320px;
     background-color: #FFFFFF;
 }
+
+.skieur p{
+    padding-bottom: 20px;
+}
+.chalet p{
+    padding-bottom: 120px;
+}
+.maison-moderne p{
+    padding-bottom: 45px;
+}
+
 .pied-page{
     margin-top: 40px;
 }
@@ -150,6 +160,7 @@ article p{
     line-height: 160%;
 }
 article a{
+    display: inline-block;
     font-family: "Dosis", serif;
     font-optical-sizing: auto;
     font-weight: 700;
@@ -159,6 +170,7 @@ article a{
     background-color: #b7b7b7;
     padding: 15px 45px;
     border-radius: 5px;
+    margin-bottom: 20px;
 }
 article a:hover{
     background-color: #0E5EA1;
