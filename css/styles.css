@@ -90,6 +90,7 @@ header a:hover{
 .texte-banniere{
     padding: 30px 20px;
     background-color: #00000070;
+    border-radius: 10px;
 }
 h2{
     font-family: "Dosis", serif;
@@ -121,7 +122,15 @@ h2{
     padding-bottom: 42px;
 }
 article{
-    padding: 10px;
+    border-top: 10px  #FFFFFF solid;
+    border-left: 10px  #FFFFFF solid;
+    border-right: 10px  #FFFFFF solid;
+    border-bottom: 10px  #0E5EA1 solid;
+
+    padding-bottom: 20px;
+
+    height: 715px;
+
     max-width: 320px;
     background-color: #FFFFFF;
 }
@@ -158,6 +167,8 @@ article a:hover{
 
 /*------------Footer---------*/
 footer{
+    padding: 25px 0;
     background-color: #000000;
     color: #FFFFFF;
+    text-align: center;
 }
