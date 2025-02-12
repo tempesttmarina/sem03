@@ -94,6 +94,7 @@ header a:hover{
     padding: 30px 20px;
     background-color: #00000070;
     border-radius: 10px;
+    align-self: center;
 }
 h2{
     font-family: "Dosis", serif;
@@ -125,10 +126,10 @@ h2{
     padding-bottom: 42px;
 }
 article{
+    border-bottom: 5px  #0E5EA1 solid;
     border-top: 10px  #FFFFFF solid;
     border-left: 10px  #FFFFFF solid;
     border-right: 10px  #FFFFFF solid;
-    border-bottom: 10px  #0E5EA1 solid;
 
     max-width: 320px;
     background-color: #FFFFFF;
@@ -166,11 +167,17 @@ article a{
     font-weight: 700;
     font-style: normal;
     font-size: 14px;
+    
     color: #000000;
     background-color: #b7b7b7;
+    
     padding: 15px 45px;
+   
     border-radius: 5px;
+    
     margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 article a:hover{
     background-color: #0E5EA1;
