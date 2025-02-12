@@ -80,18 +80,16 @@ header a:hover{
 /*-------------Section HERO----------*/
 .hero{
     background-image: url(../images/montagnes-banniere.jpg);
-    height: 450px;
     background-repeat: no-repeat;
-    background-size: contain; 
+    height: 450px;
     background-position: center; 
 }
 .hero .wrapper{
     display: flex;
-    align-items: center;
     justify-content: center;
-
 }
 .texte-banniere{
+    margin-top: 165px;
     padding: 30px 20px;
     background-color: #00000070;
     border-radius: 10px;
@@ -131,8 +129,6 @@ article{
 
     border-bottom: 5px  #0E5EA1 solid;
     border-top: 10px  #FFFFFF solid;
-    border-left: 10px  #FFFFFF solid transparent;
-    border-right: 10px  #FFFFFF solid transparent;
 
     max-width: 320px;
     background-color: #FFFFFF;
